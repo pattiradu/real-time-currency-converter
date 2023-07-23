@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.amount,
+.from,
+.to {
+  flex: 1;
+}
+
+.select-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.select-box img {
+  width: 48px;
+  height: 36px;
+}
+
+.exchange-rate {
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 0;
+  color: #777;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex: 0 0 auto;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+}
